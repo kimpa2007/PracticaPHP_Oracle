@@ -42,7 +42,7 @@ Detall: encara que seria normal entrar les dates a partir del valor actual del s
 que es tracta d’un exercici acadèmic cal poder entrar les dates manualment per testejar el
 funcionament de les opcions.
 
-<b> Revisions</b
+<b> Revisions</b>
 
 Quan un client retorna el vehicle que ha llogat (apartat d) cal comprovar si el vehicle s’ha de portar
 a passar la revisió mecànica. 
@@ -56,4 +56,5 @@ El venedor que porta el cotxe a revisió és el més jove de la delegació on s�
 
 Cal que la mateixa opció de retornar un vehicle insereixi automàticament, si cal, un registre a la taula de revisions. Com a precondició tenim que a la taula de lloguers ja existeix una fila pel cotxe que es retorna i les columnes dataf , kmf, i retorn a NULL. I com a postcondició tenim que si li tocava passar revisió, s'haurà afegit una nova fila a la taula de revisions. Pel que fa a la opció e) del menú particular d’aquest enunciat, caldrà demanar un codi de vehicle i mostrar totes les revisions que ha tingut. També cal mostrar si es troba o no llogat i els km que falten fins a la propera revisió.
 
-Cal destacar que els objectes en PHP són molts millorables, podrien ser més senzill amb herència. 
+<b>Cal destacar que els objectes en PHP són molts millorables, podrien ser més senzill amb herència. 
+El objecte de Oci (que interactua amb la base de dades) es també millorable (afegint-li per fer les consultes, per com es retorni resultat etc), però de cares a la pràctica demanada es més que suficient </b>
